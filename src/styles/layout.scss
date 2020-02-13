@@ -1,0 +1,85 @@
+@import "./navbar";
+@import "./about";
+@import "./footer";
+@import "./portfolio";
+@import "./blog";
+@import "./contact";
+@import "./config";
+@import "./responsive";
+@import "./togglebutton";
+@import "./sidebar";
+@import "./backdrop";
+
+$colors: (
+  primary: #ffffff,
+  secondary: #2d3436,
+  accent: #6c5ce7,
+  text: #000000
+);
+
+$fonts: (
+  bold: 3rem,
+  medium: 1.5rem
+);
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: map-get($colors, primary);
+  color: map-get($colors, primary);
+  font-family: poppins;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  margin-top: 0;
+  background-image: url("../images/Rectangle2.jpg");
+  height: 80vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+
+  /* for edge cases: */
+  //   width: 100%;
+  //   max-width: 100%;
+
+  width: 1170px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  //   @include for-desktop-up {
+  //     width: 1170px;
+  //   }
+}
+
+.box {
+  margin-top: 5px;
+}
+
+.logo {
+  color: black;
+  font-family: Galada, cursive;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.text {
+  color: black;
+  margin: 0;
+}

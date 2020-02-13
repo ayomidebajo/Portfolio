@@ -1,0 +1,79 @@
+.myworks {
+  & h2 {
+    width: 394px;
+    background: url("../images/SquareDots.svg") no-repeat bottom right / contain;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    color: black;
+    text-align: center;
+    margin: auto auto 2em auto;
+  }
+}
+.workcards--c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1186px;
+  margin: auto auto 10vh auto;
+
+  .workcards {
+    width: 584px;
+    height: 500px;
+    margin: 0.5em;
+
+    &:hover {
+      cursor: pointer;
+      // background-color: #000000;
+      opacity: 0.5;
+      background-size: contain;
+      transition: 0.6s;
+    }
+  }
+
+  .card-1 {
+    background: url("../images/E-commerce-store.png") no-repeat center center /
+      cover;
+  }
+
+  .card-2 {
+    background: url("../images/Rectangle3.jpg") no-repeat center center / cover;
+  }
+
+  .card-3 {
+    background: url("../images/Rectangle4.jpg") no-repeat center center / cover;
+  }
+
+  .card-4 {
+    background: url("../images/Rectangle5.jpg") no-repeat center center / cover;
+  }
+}
+
+.btn--container {
+  width: 347px;
+  background: url("../images/RectangleDots.svg") no-repeat bottom right /
+    contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto 5vh auto;
+  padding-bottom: 20px;
+
+  & a {
+    outline: none;
+
+    // & button {
+    //   width: 296px;
+    //   height: 89px;
+    //   border: 2px solid map-get($colors, #000000);
+    //   background: #ffffff;
+    //   text-align: center;
+    //   transition: 0.5s;
+    //   cursor: pointer;
+
+    //   &:hover {
+    //     background: #000000;
+    //     color: #ffffff;
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,22 @@
+.contact--container {
+  width: 365px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+
+  & p {
+    color: #000000;
+    font-family: poppins;
+    font-size: 24px;
+    line-height: 36px;
+    margin: auto auto 0 auto;
+  }
+  & h3 {
+    color: map-get($colors, accent);
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: bold;
+  }
+}
