@@ -73,10 +73,13 @@ a {
 }
 
 .logo {
-  color: black;
-  font-family: Galada, cursive;
-  font-weight: bolder;
-  font-size: 2.5rem;
+  width: 50px;
+  margin-left: 0;
+  margin-right: 90vh;
+
+  & a {
+    outline: none;
+  }
 }
 
 .text {

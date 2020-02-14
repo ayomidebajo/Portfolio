@@ -20,27 +20,31 @@ $colors: (
   align-items: center;
   justify-content: center;
 
-  & li:nth-child(2) {
-    margin-left: auto;
+  & li:nth-child(1) {
+    margin-right: 0;
   }
 
-  & li:nth-child(6) {
-    margin-right: auto;
-  }
+  // & li:nth-child(2) {
+  //   margin-left: auto;
+  // }
+
+  // & li:nth-child(6) {
+  //   margin-right: auto;
+  // }
 
   & p {
     color: #000000;
   }
 
-  li a {
-    top: 0;
-    padding: 0 10px;
-    transition: 0.5s ease-in-out;
+  // li a {
+  //   top: 0;
+  //   padding: 0 10px;
+  //   transition: 0.5s ease-in-out;
 
-    &:hover {
-      color: #6c5ce7;
-    }
-  }
+  //   &:hover {
+  //     color: #6c5ce7;
+  //   }
+  // }
 }
 
 .menu ul {

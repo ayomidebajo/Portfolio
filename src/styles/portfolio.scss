@@ -36,7 +36,7 @@
   }
 
   .card-2 {
-    background: url("../images/Rectangle3.jpg") no-repeat center center / cover;
+    background: url("../images/BlogPress2.png") no-repeat center center / cover;
   }
 
   .card-3 {
@@ -75,5 +75,26 @@
     //     color: #ffffff;
     //   }
     // }
+  }
+}
+
+.workcards {
+  display: flex;
+  justify-content: space-evenly;
+
+  .link-one {
+    color: black;
+    width: 200px;
+    height: 200px;
+    // margin-right: 5em;
+  }
+  .link-two {
+    color: black;
+    width: 200px;
+    height: 20px;
+  }
+
+  & a {
+    outline: none;
   }
 }

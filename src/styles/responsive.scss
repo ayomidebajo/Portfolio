@@ -40,9 +40,9 @@
     grid-template-columns: 1fr;
 
     .workcards {
-      width: 360px;
+      width: 380px;
       height: 188px;
-      margin: 0.5em;
+      margin: 2em;
     }
   }
 
@@ -78,7 +78,7 @@
 
   .contact--container {
     width: 350px;
-    margin-left: 10px;
+    margin-left: 50px;
 
     & p {
       color: #000000;
@@ -110,7 +110,7 @@
       .blogcards {
         width: 360px;
         height: 188px;
-        margin: 0 0 1rem 0;
+        margin: 2em;
       }
     }
   }
@@ -138,19 +138,12 @@
 }
 
 .blog--link {
-  margin-left: 0;
-  display: flex;
-  justify-content: center;
-  border-radius: 0.2em;
   border: 1px solid black;
   background: white;
-  width: 150px;
+  // width: 120px;
   outline: none;
   text-decoration: none;
-  position: absolute;
-  color: black;
-  align-items: center;
-  margin-top: 20vh;
+  margin: 10px 0 0 2em;
 
   &:hover {
     color: white;

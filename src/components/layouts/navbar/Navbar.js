@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
+import Logo from "../../../images/Ayomide Bajo.png";
 
 class Navbar extends Component {
   render() {
@@ -9,7 +10,7 @@ class Navbar extends Component {
           <div className="container">
             <ul className="nav--lists">
               <Link to="/" className="logo left">
-                Ayomide Bajo
+                <img src={Logo} alt="Ayomide Bajo" />
               </Link>
               <div className="menu-wrap">
                 {/* <input type="checkbox" className="toggler" /> */}
@@ -45,7 +46,7 @@ class Navbar extends Component {
               </li> */}
 
               <li>
-                <p>hello@ayomidebajo.com</p>
+                <p>hello.ayomidebajo@gmail.com</p>
               </li>
             </ul>
           </div>
