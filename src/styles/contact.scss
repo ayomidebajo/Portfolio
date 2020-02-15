@@ -5,6 +5,11 @@
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  padding: 10vh 0 20vh 0;
+
+  @include for-phone-only {
+    width: 100%;
+  }
 
   & p {
     color: #000000;
@@ -12,11 +17,20 @@
     font-size: 24px;
     line-height: 36px;
     margin: auto auto 0 auto;
+
+    @include for-phone-only {
+      font-size: 18px;
+    }
   }
+
   & h3 {
     color: map-get($colors, accent);
     font-size: 35px;
     line-height: 52px;
     font-weight: bold;
+
+    @include for-phone-only {
+      font-size: 20px;
+    }
   }
 }

@@ -1,8 +1,14 @@
 .about__container {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 1fr);
   position: relative;
-  bottom: 55vh;
+  top: 10em;
+
+  @include for-phone-only {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    color: #000000;
+  }
 
   .about--image {
     background: url("../images/Ayo.jpg") no-repeat left / contain;
@@ -10,10 +16,18 @@
   }
 
   .about--text__container {
+    width: 90%;
+    margin: auto;
+
+
     & h2 {
       font-weight: bold;
       font-size: 64px;
       margin-bottom: 0rem;
+
+      @include for-phone-only {
+        font-size: 34px;
+      }
     }
 
     & p {
@@ -22,8 +36,12 @@
       color: map-get($colors, primary);
       line-height: 37px;
       width: 581px;
-      display: flex;
-      flex-direction: column;
+
+      @include for-phone-only {
+        color: #000000;
+        font-size: 18px;
+        width: 100%;
+      }
     }
   }
 }

@@ -1,100 +1,98 @@
-.myworks {
+.works__container {
+  height: auto;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 4em;
+
   & h2 {
     width: 394px;
     background: url("../images/SquareDots.svg") no-repeat bottom right / contain;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 108px;
     color: black;
     text-align: center;
     margin: auto auto 2em auto;
+
+    @include for-phone-only {
+      width: 100%;
+    }
   }
 }
-.workcards--c {
+
+.work--card__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 1186px;
-  margin: auto auto 10vh auto;
+  grid-gap: 2em;
+  grid-template-columns: repeat(1, 1fr);
 
-  .workcards {
-    width: 584px;
-    height: 500px;
-    margin: 0.5em;
+  @include for-phone-only {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
-    &:hover {
-      cursor: pointer;
-      // background-color: #000000;
-      opacity: 0.5;
-      background-size: contain;
-      transition: 0.6s;
+.work__card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  @include for-phone-only {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.work__card:hover .work--card__content {
+  opacity: 0.9;
+}
+
+.work--image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  // cursor: pointer;
+}
+
+.work--card__content {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
+
+  @include for-phone-only {
+    height: auto;
+  }
+
+  & p {
+    width: 500px;
+    margin: auto;
+    font-size: 24px;
+
+    @include for-phone-only {
+      font-size: 18px;
+      width: 100%;
     }
   }
 
-  .card-1 {
-    background: url("../images/E-commerce-store.png") no-repeat center center /
-      cover;
-  }
+  & h3 {
+    padding-top: 2em;
+    font-size: 32px;
 
-  .card-2 {
-    background: url("../images/BlogPress2.png") no-repeat center center / cover;
-  }
-
-  .card-3 {
-    background: url("../images/Rectangle4.jpg") no-repeat center center / cover;
-  }
-
-  .card-4 {
-    background: url("../images/Rectangle5.jpg") no-repeat center center / cover;
-  }
-}
-
-.btn--container {
-  width: 347px;
-  background: url("../images/RectangleDots.svg") no-repeat bottom right /
-    contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto auto 5vh auto;
-  padding-bottom: 20px;
-
-  & a {
-    outline: none;
-
-    // & button {
-    //   width: 296px;
-    //   height: 89px;
-    //   border: 2px solid map-get($colors, #000000);
-    //   background: #ffffff;
-    //   text-align: center;
-    //   transition: 0.5s;
-    //   cursor: pointer;
-
-    //   &:hover {
-    //     background: #000000;
-    //     color: #ffffff;
-    //   }
-    // }
-  }
-}
-
-.workcards {
-  display: flex;
-  justify-content: space-evenly;
-
-  .link-one {
-    color: black;
-    width: 200px;
-    height: 200px;
-    // margin-right: 5em;
-  }
-  .link-two {
-    color: black;
-    width: 200px;
-    height: 20px;
-  }
-
-  & a {
-    outline: none;
+    @include for-phone-only {
+      font-size: 24px;
+      width: 100%;
+    }
   }
 }

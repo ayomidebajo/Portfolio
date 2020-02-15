@@ -1,0 +1,38 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 1em 2em 1em 2em;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.1px;
+  margin: 4em 0 4em 0;
+}
+
+.btn--white {
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  transition: 0.5s;
+
+  &:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+.btn--black {
+    background: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: 0.5s;
+  
+    &:hover {
+      background: #000000;
+      color: #ffffff;
+    }
+  }
+  
+.btn--yellow {
+  background: #f8c615;
+  color: #ffffff;
+}

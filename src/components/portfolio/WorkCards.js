@@ -1,55 +1,54 @@
 import React from "react";
+import Store from "../../images/E-commerce-store.png";
+import BlogPress from "../../images/blogpress.png";
 
 function workCards() {
   return (
     <div className="container">
-      <div className="workcards--c">
-        <div className="workcards card-1">
-          <a
-            className="link-one"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://my-e-commerce-store.netlify.com/"
-          >
-            Demo
-          </a>
-          <a
-            className="link-two"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/ayomidebajo/react-store"
-          >
-            Source code
-          </a>
-        </div>
+      <div className="works__container">
+        <div className="work--card__container">
+          <div className="work__card">
+            <img
+              className="work--image"
+              width="100%"
+              src={Store}
+              alt="e-commerce store"
+            />
+            <div className="work--card__content">
+              <h3>E-store</h3>
+              <p>
+                is a fin-tech mobile app for the Nigeria local market which
+                involves money lending with ease
+              </p>
+              <a
+                title="Open in new tab"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn--white">View this project</button>
+              </a>
+            </div>
+          </div>
 
-        <div className="workcards card-2">
-          <a
-            className="link-one"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://my-e-commerce-store.netlify.com/"
-          >
-            Demo
-          </a>
-          <a
-            className="link-two"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/ayomidebajo/blogpress"
-          >
-            Source code
-          </a>
+          <div className="work__card">
+            <img
+              className="work--image"
+              width="100%"
+              src={BlogPress}
+              alt="BlogPress"
+            />
+            <div className="work--card__content">
+              <h3>BlogPress</h3>
+              <p>
+                is an on-demand delivery platform that provides easy and
+                convenient delivery services for small businesses.
+              </p>
+              <button className="btn btn--white">View this project</button>
+            </div>
+          </div>
         </div>
-
-        {/* <div className="workcards card-3"></div>
-        <div className="workcards card-4"></div> */}
       </div>
-      {/* <div className="btn--container">
-        <a href="#">
-          <button>View all works</button>
-        </a>
-      </div> */}
     </div>
   );
 }

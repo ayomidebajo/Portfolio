@@ -4,6 +4,8 @@ $colors: (
   accent: #6c5ce7
 );
 
+
+
 .nav-wrapper {
   background-color: map-get($colors, primary);
   display: flex;
@@ -12,7 +14,7 @@ $colors: (
   border-top: 3px solid #000000;
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav--lists {
@@ -20,31 +22,17 @@ $colors: (
   align-items: center;
   justify-content: center;
 
-  & li:nth-child(1) {
+  & li:nth-child(2) {
     margin-right: 0;
+
+    @include for-phone-only {
+      display: none;
+    }
   }
-
-  // & li:nth-child(2) {
-  //   margin-left: auto;
-  // }
-
-  // & li:nth-child(6) {
-  //   margin-right: auto;
-  // }
 
   & p {
     color: #000000;
   }
-
-  // li a {
-  //   top: 0;
-  //   padding: 0 10px;
-  //   transition: 0.5s ease-in-out;
-
-  //   &:hover {
-  //     color: #6c5ce7;
-  //   }
-  // }
 }
 
 .menu ul {
@@ -56,6 +44,15 @@ $colors: (
 menu li {
   padding: 0 0.5rem;
 }
+
 .logo {
-  margin-right: 20px;
+  margin-right: auto;
+
+  & img {
+    width: 100%;
+  }
+
+  & a {
+    outline: none;
+  }
 }

@@ -20,6 +20,10 @@
     width: 30%;
     margin: -2px auto auto auto;
 
+    @include for-phone-only {
+      width: 100%;
+    }
+
     & i {
       color: #ffffff;
     }

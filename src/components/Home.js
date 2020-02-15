@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import About from "./about/About";
+import Header from './header/Header';
 import Portfolio from "./portfolio/Portfolio";
 import Contact from "./contact/Contact";
 import Blog from "./blog/Blog";
@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <Layout>
-        <About />
+        <Header />
         <Portfolio />
         <Contact />
         <Blog />
