@@ -16,18 +16,21 @@ function workCards() {
             />
             <div className="work--card__content">
               <h3>E-store</h3>
-              <p>
-                is a fin-tech mobile app for the Nigeria local market which
-                involves money lending with ease
-              </p>
+              <p>is an e-commerce store built with react and bootstrap</p>
               <a
                 title="Open in new tab"
-                href=""
+                href="https://my-e-commerce-store.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="btn btn--white">View this project</button>
               </a>
+              <a
+                title="Open in new tab"
+                href="https://github.com/ayomidebajo/react-store"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><button className="btn btn--white">Source code</button></a>
             </div>
           </div>
 
@@ -41,10 +44,24 @@ function workCards() {
             <div className="work--card__content">
               <h3>BlogPress</h3>
               <p>
-                is an on-demand delivery platform that provides easy and
-                convenient delivery services for small businesses.
+                is a blog built with react,sass and firebase for authentication.
               </p>
-              <button className="btn btn--white">View this project</button>
+              <a
+                title="Open in new tab"
+                href="https://blogpress.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn--white">View this project</button>
+                
+              </a>
+              <a
+                title="Open in new tab"
+                href="https://github.com/ayomidebajo/blogpress"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><button className="btn btn--white">Source code</button></a>
+              
             </div>
           </div>
         </div>
