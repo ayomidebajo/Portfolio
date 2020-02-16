@@ -30,7 +30,11 @@ function workCards() {
                 href="https://github.com/ayomidebajo/react-store"
                 target="_blank"
                 rel="noopener noreferrer"
-              ><button className="btn btn--white">Source code</button></a>
+              >
+                <button className="btn btn--white">
+                  Source codes and stuff
+                </button>
+              </a>
             </div>
           </div>
 
@@ -53,15 +57,15 @@ function workCards() {
                 rel="noopener noreferrer"
               >
                 <button className="btn btn--white">View this project</button>
-                
               </a>
               <a
                 title="Open in new tab"
                 href="https://github.com/ayomidebajo/blogpress"
                 target="_blank"
                 rel="noopener noreferrer"
-              ><button className="btn btn--white">Source code</button></a>
-              
+              >
+                <button className="btn btn--white">Source code</button>
+              </a>
             </div>
           </div>
         </div>
