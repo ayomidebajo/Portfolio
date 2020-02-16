@@ -31,9 +31,7 @@ function workCards() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn--white">
-                  Source codes and stuff
-                </button>
+                <button className="btn btn--white">Source code</button>
               </a>
             </div>
           </div>
