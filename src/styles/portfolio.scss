@@ -54,6 +54,11 @@
   transition: 0.5s ease;
   backface-visibility: hidden;
   // cursor: pointer;
+
+  @include for-phone-only {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .work--card__content {
