@@ -7,6 +7,7 @@ function Footer() {
       <div className="footer--icon__container">
         <a
           rel="noopener noreferrer"
+          aria-label="link to my twitter account"
           target="_blank"
           href="https://twitter.com/ayomide_bajo"
         >
@@ -14,6 +15,7 @@ function Footer() {
         </a>
         <a
           rel="noopener noreferrer"
+          aria-label="link to my linkedin account"
           target="_blank"
           href="https://www.linkedin.com/in/ayomide-bajo-945017197"
         >
@@ -21,6 +23,7 @@ function Footer() {
         </a>
         <a
           rel="noopener noreferrer"
+          aria-label="link to my instagram account"
           target="_blank"
           href="https://www.instagram.com/ayomide_bajo"
         >
@@ -28,6 +31,7 @@ function Footer() {
         </a>
         <a
           rel="noopener noreferrer"
+          aria-label="link to my codepen account"
           target="_blank"
           href="https://codepen.io/ayomidebajo"
         >
@@ -35,6 +39,7 @@ function Footer() {
         </a>
         <a
           rel="noopener noreferrer"
+          aria-label="link to my github account"
           target="_blank"
           href="https://github.com/ayomidebajo"
         >
