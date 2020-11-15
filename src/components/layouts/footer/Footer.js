@@ -13,14 +13,14 @@ function Footer() {
         >
           <i className="fab fa-twitter"></i>
         </a>
-        <a
+        {/* <a
           rel="noopener noreferrer"
           aria-label="link to my linkedin account"
           target="_blank"
           href="https://www.linkedin.com/in/ayomide-bajo-945017197"
         >
           <i className="fab fa-linkedin-in"></i>
-        </a>
+        </a> */}
         <a
           rel="noopener noreferrer"
           aria-label="link to my instagram account"
