@@ -7,7 +7,8 @@ function AboutText() {
       <p>
         "Hi there, I’m a front-end developer and designer based in Nigeria, I
         enjoy turning complex problems into simple and intuitive interface. When
-        I’m not coding, I spend my time playing games or reading a book".
+        I’m not coding or designing, I spend my time playing games or reading a
+        book".
       </p>
     </div>
   );
