@@ -6,6 +6,29 @@
   font-size: 20px;
   letter-spacing: -0.1px;
   margin: 4em 0 4em 0;
+
+  @include for-phone-only {
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    margin: 0;
+  }
+}
+
+.button--container {
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 60%;
+  margin: auto;
+
+  @include for-phone-only {
+    width: 100%;
+  }
 }
 
 .btn--white {
@@ -21,17 +44,17 @@
 }
 
 .btn--black {
-    background: transparent;
-    border: 2px solid #000000;
-    color: #000000;
-    transition: 0.5s;
-  
-    &:hover {
-      background: #000000;
-      color: #ffffff;
-    }
+  background: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+  transition: 0.5s;
+
+  &:hover {
+    background: #000000;
+    color: #ffffff;
   }
-  
+}
+
 .btn--yellow {
   background: #f8c615;
   color: #ffffff;

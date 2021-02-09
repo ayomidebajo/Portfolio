@@ -19,22 +19,24 @@ function workCards() {
             <div className="work--card__content">
               <h3>E-store</h3>
               <p>is an e-commerce store built with react and bootstrap</p>
-              <a
-                title="Open in new tab"
-                href="https://my-e-commerce-store.netlify.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">View this project</button>
-              </a>
-              <a
-                title="Open in new tab"
-                href="https://github.com/ayomidebajo/react-store"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">Source code</button>
-              </a>
+              <div className="button--container">
+                <a
+                  title="Open in new tab"
+                  href="https://my-e-commerce-store.netlify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">View this project</button>
+                </a>
+                <a
+                  title="Open in new tab"
+                  href="https://github.com/ayomidebajo/react-store"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">Source code</button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -50,22 +52,24 @@ function workCards() {
               <p>
                 is a blog built with react,sass and firebase for authentication.
               </p>
-              <a
-                title="Open in new tab"
-                href="https://blogpress.netlify.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">View this project</button>
-              </a>
-              <a
-                title="Open in new tab"
-                href="https://github.com/ayomidebajo/blogpress"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">Source code</button>
-              </a>
+              <div className="button--container">
+                <a
+                  title="Open in new tab"
+                  href="https://blogpress.netlify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">View this project</button>
+                </a>
+                <a
+                  title="Open in new tab"
+                  href="https://github.com/ayomidebajo/blogpress"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">Source code</button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="work__card">
@@ -78,14 +82,16 @@ function workCards() {
             <div className="work--card__content">
               <h3>Lens</h3>
               <p>is an app for book lovers</p>
-              <a
-                title="Open in new tab"
-                href="https://www.figma.com/file/FFeuaDni55uuLAJjnWR8LM/Blog-app?node-id=0%3A1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">View this project</button>
-              </a>
+              <div className="button--container">
+                <a
+                  title="Open in new tab"
+                  href="https://www.figma.com/file/FFeuaDni55uuLAJjnWR8LM/Blog-app?node-id=0%3A1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">View this project</button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="work__card">
@@ -101,14 +107,16 @@ function workCards() {
                 is an app for online transactions and payments. More UI designs
                 incoming...
               </p>
-              <a
-                title="Open in new tab"
-                href="https://www.figma.com/file/E3ct4SMRvsRlkNq74sgJBD/Building-an-app?node-id=8%3A2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn--white">View this project</button>
-              </a>
+              <div className="button--container">
+                <a
+                  title="Open in new tab"
+                  href="https://www.figma.com/file/E3ct4SMRvsRlkNq74sgJBD/Building-an-app?node-id=8%3A2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn--white">View this project</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
